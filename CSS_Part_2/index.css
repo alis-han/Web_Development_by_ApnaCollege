@@ -1,0 +1,80 @@
+/* descendant Selector */
+.post a {
+    color: purple;
+    background-color: yellow;
+}
+
+nav ul li a {
+    color: hotpink;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3 {
+    text-decoration: underline;
+}
+
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+div > input {
+    background-color: darksalmon;
+}
+
+/* Attribute Selector */
+
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"]{
+    color: green;
+}
+
+/* PSEUDO_CLASS */
+
+/* HOVER___ */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+h3:hover{
+    text-decoration: none;
+}
+
+/* ACTIVE___ */
+button:active{
+    background-color: hotpink;
+    color: black;
+}
+
+p:active{
+    font-weight: bold;
+    color: green;
+}
+
+/* Checked_Unchecked */
+input[type="radio"]:checked+label{
+    color: red;
+    font-weight: bold;
+}
+
+div:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+
+/* PSEUDO__ELEMENTS */
+h1::first-letter {
+    color: green;
+}
+
+p::first-line {
+    color: green;
+}
+
+p::selection{
+    background-color: yellow;
+}

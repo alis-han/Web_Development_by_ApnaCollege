@@ -1,0 +1,54 @@
+#container {
+    height: 600px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+
+    /* Display_Property */
+    display: flex;
+
+    /* FlexBox_Direction */
+    flex-direction: column;
+    /* flex-direction: column-reverse;
+    flex-direction: row;
+    flex-direction: row-reverse; */
+
+    /* Justify_Content */
+    justify-content: flex-start;
+    
+    /* Flex_Wrap */
+    /* flex-wrap: wrap; */
+
+    /* Align Items */
+    align-items: flex-start;
+
+    /* Align Content */
+    align-content: space-evenly;
+
+}
+
+#red {
+    /* Align Self */
+    align-self: flex-end;
+}
+
+#blue {
+    /* Flex Basis */
+    /* flex-basis: 200px; */
+
+    /* Flex Grow */
+    flex-grow: 2;
+}
+
+h1{
+    text-align: center;
+}
+
+#container div {
+    height: 100px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+}
